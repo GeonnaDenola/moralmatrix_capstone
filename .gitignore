@@ -1,0 +1,31 @@
+# Sensitive configuration
+config.php
+secrets.txt
+.env
+.env.*
+
+# Dependencies
+/vendor/
+/node_modules/
+
+# Accidental nested Git repository
+MoralMatrix.2.git/
+*.git/
+
+# User/generated uploads
+/uploads/
+/admin/uploads/
+/ccdu/uploads/
+/faculty/uploads/
+/validator/uploads/
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+# Backup files
+.gitignore.bak
